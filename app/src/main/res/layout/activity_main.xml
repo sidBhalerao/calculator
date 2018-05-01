@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@mipmap/img">
+
+
+    <EditText
+        android:id="@+id/value1"
+        android:layout_width="148dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="28dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/value2"
+        android:layout_width="148dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-60dp"
+        android:textColor="@color/colorAccent"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="ADD"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/btn_sbtract"
+        android:layout_width="118dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-48dp"
+        android:text="SUBTRACT"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="150dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_mult"
+        android:layout_width="127dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="MULTIPLICATION"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="252dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="120dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="210dp"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="252dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="339dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btn_clr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="clear"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Button
+        android:id="@+id/btn_ext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="exit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+
+
+
+</LinearLayout>
